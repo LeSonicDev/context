@@ -1,0 +1,6 @@
+.idea
+.obsidian
+.venv
+.env
+logs
+__pycache__
