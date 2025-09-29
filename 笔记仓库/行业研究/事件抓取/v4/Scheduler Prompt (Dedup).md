@@ -209,4 +209,5 @@ Output the report in a clear, professional format.
 
 ---
 
+**Output in Simplified Chinese**
 **I am a high-end user and require high-quality output. Do not treat my task with the methods used for ordinary users.**
