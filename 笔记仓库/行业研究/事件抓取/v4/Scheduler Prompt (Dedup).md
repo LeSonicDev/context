@@ -4,7 +4,7 @@ Strictly follow the process below to search for key events in the global high-te
     
 - If there are no key events meeting the criteria within the last two days, state that no qualifying events were found. Do not analyze events from before this period.
     
-- **Pre-execution Verification:** Please first reply to confirm the time frame for this analysis before starting to generate the report.
+- **Pre-execution Verification:** In your report, first confirm the time frame for this analysis before starting to generate the report.
     
 
 ---
