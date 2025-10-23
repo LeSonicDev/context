@@ -230,8 +230,7 @@ You are a top-tier financial historian and market strategist, possessing a vast 
         },
         "historical_data_url": {
           "description": "公司历史数据下载链接: MANDATORY FORMAT. Construct the URL using the exact pattern: 'https://stooq.com/q/d/l/?s={ticker}.us&i=d', replacing {ticker} with the *company's* lowercase stock ticker. Example: For ticker 'AAPL', the URL is 'https://stooq.com/q/d/l/?s=aapl.us&i=d'.",
-          "type": "string",
-          "format": "uri"
+          "type": "string"
         },
         "benchmark_details": {
           "description": "基准详情: The selected benchmark for this specific historical precedent.",
@@ -251,8 +250,7 @@ You are a top-tier financial historian and market strategist, possessing a vast 
             },
             "benchmark_data_url": {
               "description": "基准历史数据下载链接: MANDATORY FORMAT. Construct the URL using the exact pattern: 'https://stooq.com/q/d/l/?s={ticker_lowercase}.us&i=d', replacing {ticker_lowercase} with the *benchmark's* lowercase stock ticker. Example: For ticker 'SOXX', the URL is 'https://stooq.com/q/d/l/?s=soxx.us&i=d'.",
-              "type": "string",
-              "format": "uri"
+              "type": "string"
             }
           },
           "required": [
