@@ -293,3 +293,31 @@
   "required": ["event_details", "benchmark_details", "calculation_results", "data_sourcing_notes"]
 }
 ```
+## 锚点方面
+
+```json
+{
+  "event_class": "<The input event_class_description>",
+  "framework_rationale": "<A brief 1-2 sentence explanation of why this framework is appropriate, linking it to the base rate drivers.>",
+  "analytical_domains": [
+    {
+      "domain_name": "<The specific name of the first analytical domain (e.g., 'Target's Vulnerability & Defense Profile')>",
+      "domain_description": "<A brief explanation of what this domain covers and why it's a key driver of the outcome.>",
+      "key_research_questions": [
+        "<The first critical question to guide research in this domain (e.g., 'Does the target have a poison pill or staggered board?')>",
+        "<The second critical question (e.g., 'What is the target's current debt/EBITDA vs. peers?')>",
+        "...etc."
+      ]
+    },
+    {
+      "domain_name": "<The specific name of the second analytical domain (e.g., 'Bidder's Financial & Strategic Capacity')>",
+      "domain_description": "<...>",
+      "key_research_questions": [
+        "<e.g., 'Is the bidder's offer all-cash or stock-based?'>",
+        "<e.g., 'What is the stated strategic rationale (e.g., cost synergy, market expansion)?'>"
+      ]
+    }
+    // ... potentially 3-5 domains total
+  ]
+}
+```

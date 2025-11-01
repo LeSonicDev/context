@@ -138,9 +138,7 @@ Input Format:
 
 The user will provide a JSON array of event objects. Each object will now contain the pre-selected benchmark_details:
 
-JSON
-
-```
+```json
 {
   "company_and_ticker": "Company Name (TICKER)",
   "event_summary": "A brief summary of the event.",
@@ -161,9 +159,7 @@ JSON
 
 You MUST provide the output as a single JSON object. This object will contain a key named `brl_results`, which must be an array. Each element in the array corresponds to an input event and must strictly adhere to the following JSON Schema.
 
-JSON
-
-```
+```json
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "BRL Calculation Result",
